@@ -8,6 +8,7 @@ jobs:
   tests:
     name: Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Check out code
@@ -29,6 +30,7 @@ jobs:
   style:
     name: Style
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Check out code
